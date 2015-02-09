@@ -1,0 +1,28 @@
+# FTP Uploader
+
+## Description
+Script for simplify the folder deployement onto several FTP servers
+
+## Usage
+ftpUpload folder/path
+
+## Install
+### cmd only
+```sh
+$ ./configure
+$ sudo ./install
+```
+### cron job
+```sh
+$ not implemented
+```
+
+## Requirement
+### Operating System
+Linux
+
+### Software
+perl
+
+### Library
+libperl NET::TurboFTPSync
